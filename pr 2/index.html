@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>praktik 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+		<h1>Регистрация</h1>
+		<form action=""> 
+			<input type="text" name="SecondName" required placeholder="Фамилия"  pattern="[Яа-яЁё]{4,15}" title="только буквы, от 4 до 15"> 
+
+			<input type="text" name="Login" placeholder="Логин" required="Введите поля" pattern="[A-Za-z]{3,20}" title="Не менее 3 символов латинского алфавита"> 
+
+			<input type="text" name="Name" placeholder="Имя" required  pattern="[Яа-яЁё]{2,10}" title="Только буквы, от 2 до 10">
+
+			<input type="email" name="Email" required  placeholder="Email@" title="title mail @"> 
+
+			<input type="text" name="Patronymic" placeholder="Отчество" required pattern="[Яа-яЁё]{4-18}" title="только буквы от 4 до 18">
+
+			<input type="text" name="Phone" required placeholder="Телефон" pattern="[0-9]{10,10}" title="10 цифр">
+
+			<input type="date" name="Date" required placeholder="Дата рождения" max="2012-01-01" min="1900-01-01" pattern="[0-9]{4,4}" title="мин – 1900 год макс - 2012">
+
+			<input type="password" name="Password" required placeholder="Пароль"  pattern="(? =. * \ D)([A-Za-z]-[0-9]5-18}" title="от 5 до 18 символов, хотя бы 1 в верхнем регистре, 3 спецсимвола, только латиница"> 
+			<input  type="submit" name="Submit" value="Отправить   &#10004;">	
+		</form> 
+	</main>
+</body>
+</html>
