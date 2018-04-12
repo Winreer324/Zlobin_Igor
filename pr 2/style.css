@@ -14,8 +14,7 @@ main{
 h1 {
 	text-align: center;
 	font-size: 24px;
-	color: #000;
-	/*text-transform: uppercase;*/
+	color: #000; 
 }
 input{
 	height: 20px;
@@ -45,12 +44,4 @@ input[type=submit]:hover{
 	background: #288aa7;
 	color: #fff;
 	border: 2px solid #fff;
-}
-
-/* input, 
-input:valid { 
-border-color: #ccc; 
-}
-input:invalid { 
-border-color: red; 
-}  */
+} 
