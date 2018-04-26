@@ -1,15 +1,12 @@
 *{padding: 0px;margin: 0px;}
-body{
-	background: #19bbeb;
-}
+ 
 main{
 	margin: auto; 	
 	width: 550px;
 	background-color: #F8F8F8;
 	padding: 40px;
 	margin-top: 100px;
-	border: 2px dotted #000;
-
+	border: 1px solid #000; 
 }
 h1 {
 	text-align: center;
@@ -31,7 +28,7 @@ input[type=submit] {
     padding: 10px 0 27px 0;
     background: #fff;
     cursor: pointer;
-    border: 2px solid #288aa7; 
+    border: 2px solid #87AA40; 
     border-radius: 5px;
     margin: 20px 32%;
     font-weight: bold;
@@ -40,8 +37,9 @@ input:focus{
 	opacity: 1;
 	color: #000
 }
+input[type=submit]{ color:#87AA40; }
 input[type=submit]:hover{
-	background: #288aa7;
+	background: #87AA40;
 	color: #fff;
 	border: 2px solid #fff;
 } 
