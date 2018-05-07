@@ -1,16 +1,14 @@
-// вариант 15 
-let audio = document.getElementById("sound");
-let audio1 = document.getElementById("sound"); 
-
+// вариант 15  
+let sound = new Audio([src="1.mp3"]); 
 let body = document.getElementById("body").addEventListener("mouseout",function(event) { 
-      audio.pause();   
+      sound.pause();   
 });   
 
 let img_main =	document.getElementById("imgSound").addEventListener("mouseover",function(event) { 
-      audio.play();   
+      sound.play();   
 });   
    
 let img_footer = document.getElementById("imgSound1").addEventListener("mouseover",function(event) { 
-      audio.play();   
+      sound.play();   
 });  
 
