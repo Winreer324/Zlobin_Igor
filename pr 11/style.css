@@ -6,6 +6,11 @@ header,main,footer{
   background: #EAEAEA;  
   position: relative;
 }
+
+@media (max-width: 1450px) and  (min-width: 750px){
+   main{ background: #000; }
+   .menu ul li a{color:blue;font-size: 30px;color:#fff;} 
+}
 /* header */
 .header{
   margin-top: -20px; 

@@ -15,5 +15,5 @@ span.style.color = "red";
 span.style.fontSize = "50px";  
 span.style.position = "absolute"; 
 span.innerText = get_name_browser();
-span.style.top = "50%"; 
+span.style.top = "-500px"; 
 span.style.left = "30%"; 
